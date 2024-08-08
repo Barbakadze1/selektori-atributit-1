@@ -1,0 +1,92 @@
+body {
+    background-color: #DEDEDE;
+}
+@font-face {
+    font-family: chemi fonti;
+    src: url("fonti/Inter-VariableFont_slnt\,wght.ttf");
+}
+div {
+    background-color: #414141;
+    border:2px dotted #FFD43A;
+    width: 383px;
+    height: 515px;
+    border-radius: 4px;
+    margin-top: auto;
+    margin-left: auto;
+    margin: auto;
+   padding: 30px;
+}
+label {
+    color: #DEDEDE;
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 700;
+}
+input[type="text"] {
+    display: flex;
+    color: #A9A9A9;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    width: 315px;
+    height: 45px;
+}
+.name::placeholder {
+    color: #FFD43A;
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 500;
+}
+input[type="number"] {
+    display: flex;
+    color: #A9A9A9;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    width: 315px;
+    height: 45px;
+}
+.number::placeholder {
+    color: #FFD43A;
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 500;
+}
+input[type="password"] {
+    display: flex;
+    color: #A9A9A9;
+    border-radius: 4px;
+    border: 1px solid #FF0000;
+    width: 315px;
+    height: 45px;
+}
+.password::placeholder {
+    color:#FF0000;
+    font-size: 16px;
+    font-family: chemi fonti;
+    font-weight: 500;
+}
+input[type="tel"] {
+    width: 315px;
+    height: 112px;
+    display: flex;
+    color: #A9A9A9;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+}
+.i1::placeholder {
+    color: #FFD43A;
+    font-family: chemi fonti;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+}
+button {
+    background-color:#FFD43A;
+    color: #000000;
+    font-family: chemi fonti;
+    font-size: 15px;
+    font-weight: 700;
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
